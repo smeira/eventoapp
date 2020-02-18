@@ -20,8 +20,8 @@ public class DataConfiguration {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/eventoapp?createDatabaseIfNotExist=true&useSSL=false&useTimezone=true&serverTimezone=GMT-3");
-        dataSource.setUsername("smeira");
-        dataSource.setPassword("SMEIRAsmeira!!2020");
+        dataSource.setUsername("user");
+        dataSource.setPassword("password");
         return dataSource;
     }
 	
